@@ -16,21 +16,17 @@ Load：寫成結構化格式（如 CSV），供後續分析或儲存，對應`wr
 查詢 Data Lake 裡的資料，並簡單製作分析圖表。
 
 
---可容納人數最多的前 10 名體育場
-![SQL script](SQL script 1-5.jpeg)
+## 可容納人數最多的前 10 名體育場  
+![SQL script](SQL%20script%201-5.jpeg)
 
+## 在美國（United States）的體育場並依容量排序  
+![SQL script](SQL%20script%201-4.jpeg)
 
--在美國（United States）的體育場並依容量排序
-![SQL script](SQL script 1-4.jpeg)
+## 各個地區的體育場平均容量  
+![SQL script](SQL%20script%201-3.jpeg)
 
+## 各個國家擁有的體育場數量  
+![SQL script](SQL%20script%201-6.jpeg)
 
---各個地區的體育場平均容量
-![SQL script](SQL script 1-3.jpeg)
-
-
---各個國家擁有的體育場數量
-![SQL script](SQL script 1-6.jpeg)
-
-
---容量超過 100,000 的體育場清單
-![SQL script](SQL script 1-7.jpeg)
+## 容量超過 100,000 的體育場清單  
+![SQL script](SQL%20script%201-7.jpeg)
