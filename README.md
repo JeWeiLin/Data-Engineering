@@ -1,5 +1,5 @@
 本專案使用爬蟲爬取維基百科頁面[List of association football stadiums by capacity](https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity)足球場資訊
-，使用 Apache Airflow 部署於 Docker 容器中。
+，在 Docker 中部署 Apache Airflow， 進行資料清理與轉換，將整理後資料儲存至**Azure Data Lake Storage**，以便後續使用**Synapse Analytics**來做分析。
 
 ![Data Pipeline Architecture](architecture.jpeg)
 
