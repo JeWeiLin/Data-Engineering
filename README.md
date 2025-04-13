@@ -7,6 +7,8 @@ Extract：從 Wikipedia 擷取原始 HTML 表格，對應`get_wikipedia_page(url
 
 Transform：資料清理、結構化、地理定位轉換，對應`clean_text(text)`
 
-Load：寫成結構化格式（如 CSV），供後續分析或儲存對應`write_wikipedia_data(**kwargs`  
+Load：寫成結構化格式（如 CSV），供後續分析或儲存，對應`write_wikipedia_data(**kwargs`  
 
-說明：這是資料的原始來源，可能透過爬蟲、API 等方式從 Wikipedia 擷取資料（如文章內容、分類、摘要等）。
+使用**Azure Data Lake Storage Gen2**，來儲存從 Wikipedia 擷取來的原始資料和清洗後資料，**Azure Data Factory (ADF)** 把儲存在 ADLS 的資料複製、轉換並傳送至下游
+，將處理完的資料儲存在下一個**Azure Data Lake Storage Gen2**，作為後續在 **Azure Synapse Analytics** 的資料分析。 在Synapse Analytics 中 ， 使用Serverless SQL Pool，
+查詢 Data Lake 裡的資料，並簡單製作分析圖表。
