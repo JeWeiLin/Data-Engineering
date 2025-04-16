@@ -16,6 +16,9 @@ Load：寫成結構化格式（如 CSV），供後續分析或儲存，對應`wr
 查詢 Data Lake 裡的資料，並簡單製作分析圖表。
 
 
+![Visualization](Visualization_PowerBi.png)
+
+
 ## 可容納人數最多的前 10 名體育場  
 ![SQL script](SQL%20script%201-5.jpeg)
 
